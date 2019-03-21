@@ -19,6 +19,7 @@ class CreateSplitpaymentsTable extends Migration
             $table->string('account');
             $table->string('bank');
             $table->string('charge');
+            $table->string('account_code');
             $table->string('contact');
             $table->string('phone');
             $table->timestamps();

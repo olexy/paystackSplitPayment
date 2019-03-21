@@ -1,0 +1,96 @@
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "8034694482",
+    "account_number": "0317919364",
+    "percentage_charge": 10,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_bgilxcxar1pl06v",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19435,
+    "createdAt": "2019-03-21T09:54:32.808Z",
+    "updatedAt": "2019-03-21T09:54:32.808Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Hubmart Ent.",
+    "primary_contact_name": "Miju Stephen",
+    "primary_contact_phone": "08086159431",
+    "account_number": "0052314655",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Diamond Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_4tgl776b4rmtrmq",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19446,
+    "createdAt": "2019-03-21T11:58:05.138Z",
+    "updatedAt": "2019-03-21T11:58:05.138Z"
+  }
+}
+{
+  "status": false,
+  "message": "Settlement Bank is invalid"
+}
+{
+  "status": false,
+  "message": "Settlement Bank is invalid"
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "RegEdit Resources Ltd.",
+    "primary_contact_name": "Manny",
+    "primary_contact_phone": "08034694482",
+    "account_number": "6150228870",
+    "percentage_charge": 8.7,
+    "settlement_bank": "Fidelity Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_lq5314uhjhdpzst",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19447,
+    "createdAt": "2019-03-21T12:11:00.248Z",
+    "updatedAt": "2019-03-21T12:11:00.248Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "ABC Bakery Inc",
+    "primary_contact_name": "Lashe Smith",
+    "primary_contact_phone": "08034694482",
+    "account_number": "2114193322",
+    "percentage_charge": 4.5,
+    "settlement_bank": "United Bank For Africa",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_fgmoyd8thnajmxl",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19448,
+    "createdAt": "2019-03-21T12:39:36.889Z",
+    "updatedAt": "2019-03-21T12:39:36.889Z"
+  }
+}

@@ -19,6 +19,11 @@ Route::get('/add', function () {
     return view('add');
 });
 
+// processing form to add account
+Route::post('/add', [
+    'uses' => 'PsspController@store'
+]);
+
 Route::get('/check', function () {
     return view('check');
 });

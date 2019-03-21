@@ -1,52 +1,16 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Add Partners' Account</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-<!-- Styles -->
-    <style>
-    html, body {
-                background-color: #daeddd;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-    .header {
-        color: #36A0FF;
-        font-size: 27px;
-        padding: 10px;
-    }
-
-    .bigicon {
-        font-size: 35px;
-        color: #36A0FF;
-    }
-    fieldset{
-        border: 2px solid rgb(150,160,200);
-        width: 400px;
-        margin: 0 auto;
-    }
-    </style>
+    <title>Split Transacion</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link href="css/pssp.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	@include('sweet::alert')
     <div class="container">
         <div class="row">
             <div class="col-md-12">
