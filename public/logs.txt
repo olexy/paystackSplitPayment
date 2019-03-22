@@ -94,3 +94,245 @@
     "updatedAt": "2019-03-21T12:39:36.889Z"
   }
 }
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "h.lekan@gmail.com",
+    "account_number": "0317919364",
+    "percentage_charge": 10,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_vmaaae0p86qf4bu",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19486,
+    "createdAt": "2019-03-22T13:14:24.084Z",
+    "updatedAt": "2019-03-22T13:14:24.084Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "h.lekan@gmail.com",
+    "account_number": "0317919364",
+    "percentage_charge": 10,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_30dmf8y1kaa8wo0",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19487,
+    "createdAt": "2019-03-22T13:16:16.484Z",
+    "updatedAt": "2019-03-22T13:16:16.484Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "",
+    "account_number": "0317919364",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_j3hp4yewzvpsihw",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19488,
+    "createdAt": "2019-03-22T13:18:49.143Z",
+    "updatedAt": "2019-03-22T13:18:49.143Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "",
+    "account_number": "0317919364",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_dtv11f89pu04kkm",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19489,
+    "createdAt": "2019-03-22T13:22:24.392Z",
+    "updatedAt": "2019-03-22T13:22:24.392Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "",
+    "account_number": "0317919364",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_fjc7jrclap5h7s5",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19490,
+    "createdAt": "2019-03-22T13:28:49.702Z",
+    "updatedAt": "2019-03-22T13:28:49.702Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "",
+    "account_number": "0317919364",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_wcbfjp23meawcll",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19491,
+    "createdAt": "2019-03-22T13:42:43.230Z",
+    "updatedAt": "2019-03-22T13:42:43.230Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "",
+    "account_number": "0317919364",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_i24scfwkg5lhekh",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19492,
+    "createdAt": "2019-03-22T14:03:49.801Z",
+    "updatedAt": "2019-03-22T14:03:49.801Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "",
+    "account_number": "0317919364",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_nvmw39h5bleaqt2",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19493,
+    "createdAt": "2019-03-22T14:11:15.573Z",
+    "updatedAt": "2019-03-22T14:11:15.573Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "",
+    "account_number": "0317919364",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_8t1htkudd2z4tty",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19494,
+    "createdAt": "2019-03-22T14:13:36.867Z",
+    "updatedAt": "2019-03-22T14:13:36.867Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Cyberoption Ent.",
+    "primary_contact_name": "John Smith",
+    "primary_contact_phone": "",
+    "account_number": "0317919364",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_4r6m41irq55atzi",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19495,
+    "createdAt": "2019-03-22T14:15:07.529Z",
+    "updatedAt": "2019-03-22T14:15:07.529Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Kadyh Inc.",
+    "primary_contact_name": "Kadrian Kaiyah",
+    "primary_contact_phone": "",
+    "account_number": "2114193322",
+    "percentage_charge": 8.7,
+    "settlement_bank": "United Bank For Africa",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_d1jxw0k6k5t2jpj",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19496,
+    "createdAt": "2019-03-22T14:23:55.178Z",
+    "updatedAt": "2019-03-22T14:23:55.178Z"
+  }
+}

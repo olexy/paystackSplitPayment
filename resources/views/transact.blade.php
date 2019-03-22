@@ -15,14 +15,21 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <form name="createRe" onsubmit="return validateField()" method="POST">	
+                    <form action="" name="createRe" onsubmit="return validateField()" method="POST">	
                     <fieldset>
                         <legend class="text-center header">Initiate A Split</legend>		
                             <table>
                             <tr>
-                                <td>Partner : </td><td><select name="">
-                                    <option value="subaccount_code">partner</option>
+                                <td>Partner : </td><td><select name="partner">
+                                @foreach($partners as $partner)
+                                    <option value="{{$partner->account_code}}">{{$partner->partner}}</option>
+
+                                @endforeach 
                                 </select></td>
+                            </tr>
+                            <tr>
+                            <td>Contact Email : </td><td><input type="text" value="" name="txtemail" required></td>
+                            </tr>
                             <tr>
                                 <td>Amount : </td><td><input type="text" value="" name="txtamount" required></td>
                             </tr>

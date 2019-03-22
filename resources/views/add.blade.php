@@ -64,10 +64,10 @@
                                 <td>Contact : </td><td><input type="text" value="" name="txtcontact" required></td>
                             </tr>
                             <tr>
-                                <td>Phone : </td><td><input type="text" value="" name="txtphone" required></td>
+                                <td>Email : </td><td><input type="text" value="" name="txtemail" required></td>
                             </tr>
                             <tr>
-                                <td colspan="2" align="center"><input type="submit" name="cmdrep" value="Create Recipient"> </td>
+                                <td colspan="2" align="center"><input type="submit" name="cmdrep" value="Create Patner"> </td>
                             </tr>
                             </table>
                         </fieldset>	

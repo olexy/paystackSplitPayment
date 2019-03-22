@@ -11,9 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('transact');
-});
+Route::get('/', [
+    'uses' => 'PagesController@transact'
+]);
+
+// processing form to transact
+Route::post('/', [
+    'uses' => 'PsspController@transact'
+]);
 
 Route::get('/add', function () {
     return view('add');
