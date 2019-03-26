@@ -28,11 +28,11 @@
                                 </select></td>
                             </tr>
                             <tr>
-                                <!-- <td>Email : </td><td><select class="partners_email">
-                                <option value="0" disabled="true" selected="true">Partner Email</option>   
-                                </select></td> -->
+                                <td><span>Partner Email: </span></td>
+                                <td><select style="width: 200px" id="pe" class="partners_email">
+                                </select></td>
 
-                                <td>Parners' Email : </td><td><input type="text" value="" name="txtemail" id="email" disabled="true"></td>
+                                <!-- <td>Parners' Email : </td><td><input type="text" value="" name="txtemail" id="email" disabled="true"></td> -->
                             </tr>
                             <tr>
                                 <td>Amount : </td><td><input type="text" value="" name="txtamount" required></td>
@@ -54,7 +54,7 @@
 </html>
 
 
-<script>
+<!-- <script>
 $(document).ready(function(){
 
     $(document).on('change','.partnerlist', function(){
@@ -87,13 +87,13 @@ $(document).ready(function(){
     });
 
 });
-</script>
+</script> -->
 
 
 
 <!-- For Using Dropdown for the dependent email column -->
 
-<!-- <script>
+<script>
 $(document).ready(function(){
 
     $(document).on('change','.partnerlist', function(){
@@ -112,7 +112,7 @@ $(document).ready(function(){
             data:{'id':partner_id},
 				success:function(data){
 					// console.log('success');
-					console.log(data);
+					// console.log(data);
                     // console.log(data.length);
 
                     op+='<option value="0" selected disabled>Partner Email</option>';
@@ -120,9 +120,11 @@ $(document).ready(function(){
 					op+='<option value="'+data[i].email+'">'+data[i].email+'</option>';
 	
                 }
-                div.find('.partners_email').html(" ");
-				div.find('.partners_email').append(op);
-                console.log(op);
+                // div.find('.partners_email').html(" ");
+				// div.find('.partners_email').append(op);
+                $('#pe').html(" ")
+                $('#pe').append(op)
+                // console.log(op);
             },
             
             error:function(){
@@ -133,5 +135,5 @@ $(document).ready(function(){
     });
 
 });
-</script> -->
+</script>
 
