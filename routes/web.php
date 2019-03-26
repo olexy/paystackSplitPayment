@@ -24,6 +24,11 @@ Route::get('/add', function () {
     return view('add');
 });
 
+Route::get('/findEmail', 'PagesController@findEmail');
+
+
+
+
 // processing form to add account
 Route::post('/add', [
     'uses' => 'PsspController@store'

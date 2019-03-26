@@ -336,3 +336,25 @@
     "updatedAt": "2019-03-22T14:23:55.178Z"
   }
 }
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "KadKay Inc",
+    "primary_contact_name": "Kaddy Kay",
+    "primary_contact_phone": "",
+    "account_number": "6150228870",
+    "percentage_charge": 3.5,
+    "settlement_bank": "Fidelity Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_rhij7xjspr8re4f",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19610,
+    "createdAt": "2019-03-26T12:12:27.744Z",
+    "updatedAt": "2019-03-26T12:12:27.744Z"
+  }
+}
