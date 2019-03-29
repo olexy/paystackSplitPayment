@@ -26,9 +26,6 @@ Route::get('/add', function () {
 
 Route::get('/findEmail', 'PagesController@findEmail');
 
-
-
-
 // processing form to add account
 Route::post('/add', [
     'uses' => 'PsspController@store'
@@ -41,4 +38,7 @@ Route::get('/check', function () {
 Route::get('/list', function () {
     return view('list');
 });
+
+Route::get('/callbackFunct', 'PagesController@callbackFunct');
+
 

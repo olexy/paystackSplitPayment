@@ -45,7 +45,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 24   px;
             }
 
             .links > a {
@@ -80,18 +80,16 @@
             @endif
 
             <div class="content">
+                <!-- <div class="m-b-md">
+                    PS Split Payment
+                </div> -->
                 <div class="title m-b-md">
-                    Laravel
+                Transaction with reference <b>"{{ $reference }}"</b> is a success!
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="/">Home</a>
+                    <a href="/add">Add Partner Account</a>
                 </div>
             </div>
         </div>

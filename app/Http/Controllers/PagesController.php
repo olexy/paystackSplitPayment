@@ -20,7 +20,12 @@ class PagesController extends Controller
 
         $data=Splitpayment::select('email')->where('account_code',$request->id)->take(100)->get();
         return response()->json($data);//then sent this data to ajax success
-	}
+    }
+    
+    public function callbackFunct(Request $request) {
+        $reference = $request->reference;
+        return view('welcome')->with('reference', $reference);
+     }
 
     
 }

@@ -358,3 +358,321 @@
     "updatedAt": "2019-03-26T12:12:27.744Z"
   }
 }
+{
+  "status": false,
+  "message": "Bank code is required"
+}
+{
+  "status": false,
+  "message": "Settlement Bank is invalid"
+}
+{
+  "status": false,
+  "message": "Settlement Bank is invalid"
+}
+{
+  "status": false,
+  "message": "Settlement Bank is invalid"
+}
+{
+  "status": false,
+  "message": "Bank code is required"
+}
+{
+  "status": false,
+  "message": "Bank code is required"
+}
+{
+  "status": false,
+  "message": "Settlement Bank is invalid"
+}
+{
+  "status": false,
+  "message": "Bank code is required"
+}
+{
+  "status": false,
+  "message": "Bank code is required"
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "NetSoft Limited",
+    "primary_contact_name": "Mohammed Akom",
+    "primary_contact_phone": "",
+    "account_number": "3046836235",
+    "percentage_charge": 4.5,
+    "settlement_bank": "First Bank of Nigeria",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_rblit4krk1zoxfq",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19659,
+    "createdAt": "2019-03-27T11:56:05.756Z",
+    "updatedAt": "2019-03-27T11:56:05.756Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Discovery Limited",
+    "primary_contact_name": "Eric Thomas",
+    "primary_contact_phone": "",
+    "account_number": "0117584889",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_adcj22h7t6b16ie",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19667,
+    "createdAt": "2019-03-27T13:13:01.189Z",
+    "updatedAt": "2019-03-27T13:13:01.189Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Zenith Technologogies",
+    "primary_contact_name": "Jim Jordan",
+    "primary_contact_phone": "",
+    "account_number": "5001284185",
+    "percentage_charge": 2.9,
+    "settlement_bank": "Standard Chartered Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_ilx4j7ra82g7nfn",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19668,
+    "createdAt": "2019-03-27T13:26:07.426Z",
+    "updatedAt": "2019-03-27T13:26:07.426Z"
+  }
+}
+
+=====
+
+{
+  "status": false,
+  "message": "Bank code is required"
+}
+{
+  "status": false,
+  "message": "Bank code is required"
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Vickod Software Solutions",
+    "primary_contact_name": "Victor Kodjovi",
+    "primary_contact_phone": "",
+    "account_number": "0015654406",
+    "percentage_charge": 7.2,
+    "settlement_bank": "Guaranty Trust Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_cd8hcnf1bykx3y6",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19669,
+    "createdAt": "2019-03-27T13:40:09.238Z",
+    "updatedAt": "2019-03-27T13:40:09.238Z"
+  }
+}
+{
+  "status": true,
+  "message": "Subaccount created",
+  "data": {
+    "business_name": "Jean Jack Ent.",
+    "primary_contact_name": "Jean Jack",
+    "primary_contact_phone": "",
+    "account_number": "6234255626",
+    "percentage_charge": 4.5,
+    "settlement_bank": "Fidelity Bank",
+    "integration": 337150,
+    "domain": "test",
+    "subaccount_code": "ACCT_qrngwnn38txggb7",
+    "is_verified": false,
+    "settlement_schedule": "AUTO",
+    "active": true,
+    "migrate": false,
+    "id": 19670,
+    "createdAt": "2019-03-27T13:50:35.900Z",
+    "updatedAt": "2019-03-27T13:50:35.900Z"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/86zbf3n7stjirog",
+    "access_code": "86zbf3n7stjirog",
+    "reference": "hboj87exqq"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/gmphws8hvg69l05",
+    "access_code": "gmphws8hvg69l05",
+    "reference": "hzttjw1cjr"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/vd7pwbe2mm0ugv2",
+    "access_code": "vd7pwbe2mm0ugv2",
+    "reference": "cxo3v23oe2"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/yqz6czryuape898",
+    "access_code": "yqz6czryuape898",
+    "reference": "cz0ham3q5m"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/y78ng829mgxmm40",
+    "access_code": "y78ng829mgxmm40",
+    "reference": "kf6hd9kxps"
+  }
+}
+{
+  "status": false,
+  "message": "Invalid Email Address Passed"
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/nuw0z5n3gvrxsu1",
+    "access_code": "nuw0z5n3gvrxsu1",
+    "reference": "fvlpa4qfzj"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/l3cqsvzxfgcjqjp",
+    "access_code": "l3cqsvzxfgcjqjp",
+    "reference": "8u7caqlk3f"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/4lwd3f01lva3jij",
+    "access_code": "4lwd3f01lva3jij",
+    "reference": "6v8en5j0n5"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/e9tw596xo8274hv",
+    "access_code": "e9tw596xo8274hv",
+    "reference": "a73wndbbb6"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/8sne13zgttlfpda",
+    "access_code": "8sne13zgttlfpda",
+    "reference": "00ljs00haq"
+  }
+}
+{
+  "status": false,
+  "message": "Invalid Email Address Passed"
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/of69dt5zlgwqmg0",
+    "access_code": "of69dt5zlgwqmg0",
+    "reference": "05u2ittsig"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/1c5144gc9n4mek6",
+    "access_code": "1c5144gc9n4mek6",
+    "reference": "5ssj0myiwk"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/lsotnlo3pihy467",
+    "access_code": "lsotnlo3pihy467",
+    "reference": "uuqafcf9ni"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/ltvnp7jpka1fjf4",
+    "access_code": "ltvnp7jpka1fjf4",
+    "reference": "1ok3z47kb6"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/k1oyu8jain3wqc7",
+    "access_code": "k1oyu8jain3wqc7",
+    "reference": "wugry4o3v0"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/irwwi5w0u6olb2g",
+    "access_code": "irwwi5w0u6olb2g",
+    "reference": "xzij59m145"
+  }
+}
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/icwh3kejxk369j9",
+    "access_code": "icwh3kejxk369j9",
+    "reference": "2ieqviszdx"
+  }
+}

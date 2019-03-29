@@ -9,6 +9,8 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link href="css/pssp.css" rel="stylesheet" type="text/css" media="all" />
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
 </head>
 <body>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -18,14 +20,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <form action="/add" name="createRe" onsubmit="return validateField()" method="POST">
+                    <form action="/add" id="banks" method="POST">
                     {{ csrf_field() }}	
                     <fieldset>
                         <legend class="text-center header">Create Patners's Account</legend>		
                             <table>
-                            <tr>
-                                <td colspan=2 align=center><a href="accountRetrieval.php" target="_blank">Click here to verify account name</a></td>
-                            </tr>
                             <tr>
                                 <td>Partners' Name : </td> <td><input type="text" value="" name="txtname" required></td>
                             </tr>
@@ -33,28 +32,28 @@
                                 <td>Account Number : </td><td><input type="text" value="" name="txtaccount" required></td>
                             </tr>
                             <tr>
-                                <td>Bank Name : </td><td><select name="bankname">
-                                    <option>Access Bank</option>
-                                    <option>Citibank Nigeria</option>
-                                    <option>Diamond Bank</option>
-                                    <option>Ecobank Nigeria</option>
-                                    <option>Enterprise Bank</option>
-                                    <option>Fidelity Bank</option>
-                                    <option>Firstbank</option>
-                                    <option>First City Monument Bank</option>
-                                    <option>Guaranty Trust Bank</option>
-                                    <option>Heritge Bank</option>
-                                    <option>Keystone Bank</option>
-                                    <option>Mainstreet Bank</option>
-                                    <option>Skye Bank</option>
-                                    <option>Stanbic IBTC Bank</option>
-                                    <option>Standard Chartered Bank</option>
-                                    <option>Sterling Bank</option>
-                                    <option>Union Bank Of Nigeria</option>
-                                    <option>United Bank For Africa</option>
-                                    <option>Unity Bank</option>
-                                    <option>Wema Bank</option>
-                                    <option>Zenith Bank</option>
+                                <td>Bank Name : </td><td><select name="bankname" id="bank">
+                                    <option value="044" bankName="Access Bank">Access Bank</option>
+                                    <option value="023" bankName="Citibank Nigeria">Citibank Nigeria</option>
+                                    <option value="063" bankName="Diamond Bank">Diamond Bank</option>
+                                    <option value="050" bankName="Ecobank Nigeria">Ecobank Nigeria</option>
+                                    <option value="084" bankName="Enterprise Bank">Enterprise Bank</option>
+                                    <option value="070" bankName="Fidelity Bank">Fidelity Bank</option>
+                                    <option value="011" bankName="First Bank of Nigeria">First Bank of Nigeria</option>
+                                    <option value="214" bankName="First City Monument Bank">First City Monument Bank</option>
+                                    <option value="058" bankName="Guaranty Trust Bank">Guaranty Trust Bank</option>
+                                    <option value="030" bankName="Heritage Bank">Heritage Bank</option>
+                                    <option value="082" bankName="Keystone Bank">Keystone Bank</option>
+                                    <option value="014" bankName="Mainstreet Bank">Mainstreet Bank</option>
+                                    <option value="076" bankName="Skye Bank">Skye Bank</option>
+                                    <option value="221" bankName="Stanbic IBTC Bank">Stanbic IBTC Bank</option>
+                                    <option value="068" bankName="Standard Chartered Bank">Standard Chartered Bank</option>
+                                    <option value="232" bankName="Sterling Bank">Sterling Bank</option>
+                                    <option value="032" bankName="Union Bank Of Nigeria">Union Bank Of Nigeria</option>
+                                    <option value="033" bankName="United Bank For Africa">United Bank For Africa</option>
+                                    <option value="215" bankName="Unity Bank">Unity Bank</option>
+                                    <option value="035" bankName="Wema Bank">Wema Bank</option>
+                                    <option value="057" bankName="Zenith Bank">Zenith Bank</option>
                                 </select></td>
                             </tr>
                             <tr>
@@ -78,3 +77,32 @@
     </div>
 </body>
 </html>
+
+<script>
+
+(function($) {
+  $(document).ready(function() {
+    $('select#bank').bind('change', function() {
+      // Fetch selected item's data element value
+      var optionId = $(this).children(':selected').attr('bankName');
+      
+      // Remove any existing hidden input
+      $('input[name="hiddenBankName"').remove();
+      
+      // Append new hidden input element
+      $('<input>').attr({
+          type: 'hidden',
+          id: 'hidbankName',
+          name: 'hidBankName',
+          value: optionId
+      }).appendTo('form#banks');
+      //console.log(optionId);
+      //console.log(txtBankName.value);
+    });
+  });
+})(jQuery);
+
+
+</script>
+
+

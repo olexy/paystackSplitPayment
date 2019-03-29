@@ -15,7 +15,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <form action="" name="createRe" onsubmit="return validateField()" method="POST">	
+                    <form action="/" name="createRe" onsubmit="return validateField()" method="POST">
+                    {{ csrf_field() }}	
                     <fieldset>
                         <legend class="text-center header">Initiate A Split</legend>		
                             <table>
@@ -29,7 +30,7 @@
                             </tr>
                             <tr>
                                 <td><span>Partner Email: </span></td>
-                                <td><select style="width: 200px" id="pe" class="partners_email">
+                                <td><select style="width: 200px" id="pe" name="email" class="partners_email">
                                 </select></td>
 
                                 <!-- <td>Parners' Email : </td><td><input type="text" value="" name="txtemail" id="email" disabled="true"></td> -->
