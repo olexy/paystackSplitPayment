@@ -142,8 +142,7 @@ class PsspController extends Controller
 
 					return redirect()->away($auth_code);
 				}
-	
-					// return redirect()->back();
+
 			}
 			
 			public function list(Request $request)
@@ -152,14 +151,13 @@ class PsspController extends Controller
 				// Call paystack and insert into db
 				$curl = curl_init();
 				curl_setopt_array($curl, array(
-					CURLOPT_URL => "",
+					CURLOPT_URL => "https://api.paystack.co/subaccount",
 					CURLOPT_RETURNTRANSFER => true,
 					CURLOPT_ENCODING => "",
 					CURLOPT_MAXREDIRS => 10,
 					CURLOPT_TIMEOUT => 30,
 					CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 					CURLOPT_CUSTOMREQUEST => "GET",
-					// CURLOPT_POSTFIELDS => "{\n   \"subaccount\": \"$request->partner\",\n   \"transaction_charge\": \"$request->txtcharge\",\n   \"primary_contact_name\": \"$request->txtcontact\",\n   \"primary_contact_email\": \"$request->txtemail\"}",
 					CURLOPT_HTTPHEADER => array(
 						"Authorization: Bearer sk_test_36e175c5c710aacac84e2a3974988707c0834e7d",
 						"Cache-Control: no-cache",
@@ -170,18 +168,27 @@ class PsspController extends Controller
 				$response = curl_exec($curl);
 				$err = curl_error($curl);
 	
+				$subacc_name ='';
+				$subacc_contact ='';
 				$subacc_code ='';
+
 				curl_close($curl);
 	
 				if ($err) {
 					echo "cURL Error #:" . $err;
 				} else {
-					echo "<br/>=========Paystack Response============<br/>".$response."<br/>";
-					$myfile = file_put_contents('logs.txt', $response.PHP_EOL , FILE_APPEND | LOCK_EX);
+					// echo "<br/>=========Paystack Response============<br/>".$response."<br/>";
+					// $myfile = file_put_contents('logs.txt', $response.PHP_EOL , FILE_APPEND | LOCK_EX);
+
 					$ans = json_decode($response);
-					$subacc_code = $ans->data->subaccount_code;
+
+					$data = $ans->data;
+
+					// Dd($data);
+
+					return view('list')->with('data', $data); 
 				}
 	
-					return redirect()->back();
+					
 			}  
 	}

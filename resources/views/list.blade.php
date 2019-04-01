@@ -5,13 +5,15 @@
 
 </head>
 <body>
-
 <ul class="list-group">
-  <li class="list-group-item">
-    Wapo Nigeria Ltd.
-    <span class="badge badge-primary badge-pill">0067383728</span
-  </li>  
-  <li class="list-group-item list-group-item-primary">
+  @foreach($data as $key)     
+  <li class="list-group-item list-group-item-success">  
+    {{$key->business_name}}
+  <a href="mailto:{{ $key->subaccount_code }}"><span class="badge badge-primary badge-pill">{{ $key->primary_contact_name }}</span></a>
+  </li> 
+  @endforeach 
+
+  <!-- <li class="list-group-item list-group-item-primary">
     ABC Bakery Inc.
     <span class="badge badge-primary badge-pill">146746379</span
   </li>
@@ -42,7 +44,7 @@
   <li class="list-group-item list-group-item-dark">
   Samsong Ojught Limited
     <span class="badge badge-primary badge-pill">687910100</span
-  </li>
+  </li> -->
 </ul>
 </body>
 </head>

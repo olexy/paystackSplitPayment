@@ -35,9 +35,7 @@ Route::get('/check', function () {
     return view('check');
 });
 
-Route::get('/list', function () {
-    return view('list');
-});
+Route::get('/list', 'PsspController@list');
 
 Route::get('/callbackFunct', 'PagesController@callbackFunct');
 
