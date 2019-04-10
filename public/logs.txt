@@ -3161,3 +3161,12 @@
     "pageCount": 1
   }
 }
+{
+  "status": true,
+  "message": "Authorization URL created",
+  "data": {
+    "authorization_url": "https://checkout.paystack.com/h1rhufni3tjlfor",
+    "access_code": "h1rhufni3tjlfor",
+    "reference": "y867rqx44d"
+  }
+}
